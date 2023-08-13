@@ -19,9 +19,9 @@ fizzBuzz n
 
 main :: IO ()
 main = do
- putStrLn "How long? :"
- num :: Int <- readLn
- putStrLn "================"
- printFizzBuzz num
- putStrLn "================"
+  putStrLn "How long? :"
+  num :: Int <- readLn
+  putStrLn "================"
+  printFizzBuzz num
+  putStrLn "================"
 
