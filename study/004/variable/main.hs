@@ -6,7 +6,5 @@ c = a + b
 main = do
   let a = 3
       b = 4
-
-  print a
-
+      c = a + b
   print c
