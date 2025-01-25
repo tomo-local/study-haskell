@@ -1,3 +1,4 @@
+action :: [Int] -> Int
 action a
   | all even a = action (map (`div` 2) a) + 1
   | otherwise = 0
